@@ -1,3 +1,11 @@
+;;; ===========================================================================
+;;; WallDraw - Advanced Architectural Wall Tool
+;;; Version: 1.0.0
+;;; Author: Barış Yorulmaz (METU Architecture)
+;;; GitHub: https://github.com/brsyorulmazz/AutoCAD-WallDraw
+;;; License: MIT
+;;; ===========================================================================
+
 (defun c:WALLDRAW ( / kwd tmp pt1 ent_old ent obj pt_start pt_end param_start param_end first_deriv_start first_deriv_end ang_start ang_end ang_start_L ang_start_R ang_end_L ang_end_R p_start_L p_start_R p_end_L p_end_R ent_L ent_R line1 line2 is_closed osmode_old cmdecho_old peditaccept_old)
   
   (vl-load-com)
