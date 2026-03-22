@@ -1,5 +1,3 @@
-# AutoCAD-WallDraw
-
 # AutoCAD Advanced Wall Drawing Tool
 
 An automated AutoLISP tool for AutoCAD to streamline **architectural wall drafting**. This script allows you to draw walls with thickness, justification, and endcaps in a single workflow, supporting both linear and curved segments.
